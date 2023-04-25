@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2 id="saludo">Hola</h2>
+        <h4 id="horaInicio"></h4>
+    </header>
+
+    <section id="main">
+
+        <div id="registro">
+            <h1>Registro de Alumnos</h1>
+            <button id="btnMostrar">Mostrar todos los alumnos</button>
+    
+            <input type="text" id="busqueda" placeholder="Ingrese un alumno">
+            <button id="btnBuscarNombre">Buscar por nombre</button>
+    
+            <h4> Para agregar un alumno llena estos datos: </h4>
+            <input type="text" id="nombre" placeholder="Nombre del alumno">
+            <input type="text" id="curso" placeholder="Curso del alumno">
+            <input type="text" id="edad" placeholder="Edad del alumno">
+            <button id="btnAgregarAlumno">Agregar alumno</button>
+        </div>
+    
+        <div id="alumnosDiv"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="luxon.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
